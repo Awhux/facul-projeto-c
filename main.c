@@ -539,8 +539,6 @@ void showUsage()
     printf("- Cada linha representa uma moto com o formato: código,placa,marca,modelo,ano\n");
     printf("- A base de dados é carregada quando o programa inicia e salva quando ele é encerrado\n");
     printf("- Capacidade máxima: %d motos\n", MAX_MOTORBIKES);
-    printf("- Capacidade atual: %d motos\n", MAX_MOTORBIKES);
-    printf("- Total de bytes armazenados: %d bytes\n", MAX_MOTORBIKES * sizeof(struct Motorbike));
     pauseExecution();
 }
 
